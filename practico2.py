@@ -45,9 +45,24 @@ while True :
 #21 22 23 24 25 26 27 28 29 30
 #. . 91 92 93 94 95 96 97 98 99 100
 
-suma=0
-lista=(1,2,3,4,5,6,7,8,9,10)
+"""posicion_de_numero=0
+numero = 1
+while numero <= 100:
+     posicion_de_numero = 0
+     linea = ""
+     while posicion_de_numero != 10:
+         linea += str(numero) + "-"
+         numero += 1
 
-for 1 in lista:
+         posicion_de_numero += 1
+     print(linea)"""
 
-    suma=suma+1
+# 5) Resuelva el ejercicio anterior usando solo un ciclo while 
+
+numero = 1
+while numero <= 100:
+     if numero % 10 == 0:
+        print(numero)
+     else:
+         print(numero,end = "-")
+     numero += 1

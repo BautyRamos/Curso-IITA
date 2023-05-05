@@ -3,13 +3,22 @@
 #entero siguiente (en este caso, 4), si no devolver el entero inmediatamente anterior (3).
 numero_mayor=3.50
 numero=input("poner numero cual quiera:")
-
-for numero_mayor in numero:
+def redondear(numero):
     if numero<numero_mayor:
-        print(round)
+        return round(numero_mayor)
     elif numero>numero_mayor:
-        print(round)    
+        return round(numero_mayor) 
   
+#2.Coloque el módulo del ejercicio anterior dentro de un paquete. En un
+#módulo que esté fuera de ese paquete, cree una función de suma de
+#decimales que redondee el resultado haciendo uso de la función
+#redondear() del paquete recién creado
+
+#import archivo 
+
+
+
+
 
 
 
@@ -18,6 +27,26 @@ for numero_mayor in numero:
 """import datetime
 fecha_actual=datetime.datetime.now()
 print(fecha_actual)"""
+
+#4. Escriba un programa que devuelva un número par al azar entre 2 y 10
+#(pista: para comprobar si se pueden generar todos los números, pruebe
+#ejecutar el programa dentro de un ciclo infinito).
+
+
+"""numero=100
+suma=0
+
+while True :
+    print(numero)
+    numero=numero+1
+    for i in range(2)"""
+
+
+
+
+
+
+
 
 
 #5. Bola mágica: La bola mágica (Magic 8 ball) es un popular juguete usado
@@ -53,5 +82,11 @@ elif respuesta==7:
     print("Mi respuesta es no")
 else:
     print("Mis fuentes me dicen que no")"""
+#6.Encuentre el tiempo de ejecución de los programas de los ejercicios
+#anteriores (pista: use el módulo time)
+
+
+
+
 
 

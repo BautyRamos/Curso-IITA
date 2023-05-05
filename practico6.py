@@ -58,7 +58,7 @@ print(Mate1.beber())"""
 # Agregar un método limpiar, que saque el corcho del sacacorchos, o lance una excepción en el caso en el que no haya
 #un corcho.
 
-class Corcho:
+"""class Corcho:
      def __init__(self, Bodega):
          self.Bodega=Bodega
     
@@ -89,7 +89,7 @@ class Sacacorcho:
              print("El sacacorchos ya esta limpio")
          else:
              self.CorchoSacacorcho=None
-             print("Sacacorcho limpiado")
+             print("Sacacorcho limpiado")"""
 
 #4) Una heladería es un tipo especial de restaurante. Cree una clase Restaurante, cuyo método __init__() guarde dos atributos:
 #restaurante_nombre y tipo_comida. Cree un método describir_restaurante() que muestre estas piezas de información, y un
@@ -99,13 +99,16 @@ class Sacacorcho:
 #al método
 
 class Restaurante:
+    restaurante_nombre="mostaza"
+    tipo_comida="hamburguesa"
     def __init__(self,restaurante_nombre,tipo_comida):
         self.describir_restaurante=restaurante_nombre and tipo_comida
         self.abrir_resaurante=("abierto")
     
 class Heladeria(Restaurante):
+    sabores="chocolate,vainilla y frutilla"
     def __init__(self,sabores):
-        self.sabores_helado
+        self.sabores_helado=sabores
     
 
 
